@@ -25,6 +25,8 @@ function initListeners () {
         // console.log("clicked");
         $(".bars").toggleClass("active");
         $(".links").toggleClass("active");
+        
+
     });
 
     
