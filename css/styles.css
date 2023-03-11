@@ -113,6 +113,11 @@ a:hover {
 
 /* BEGIN MEDIA Q */
 @media screen and (max-width: 960px) {
+  .image .view {
+    display: flex;
+  }
+
+
   .links .icon img {
     display: none;
   }
@@ -139,7 +144,7 @@ a:hover {
 /* END MEDIA Q */
 
 /* HOME PAGE */
-.home .hero {
+                    /* .home .hero {
   justify-content: center;
   align-items: center;
   display: table;
@@ -164,8 +169,105 @@ a:hover {
 .home .hero .col p {
   font-size: 16pt;
   color: #16302b;
-}
+} */
 /* END HOME PAGE */
+
+
+/* HW 3 VIDEO  */
+.app {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.imgholder {
+width: 500px;
+height: 500px;
+}
+
+.imgdesc {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 20px;
+  
+}
+
+.image {
+  width: 200px;
+  height: 100%;
+  border-radius: 10px;
+  background-image: url(../img/more1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.buttons {
+  display: flex;
+
+}
+
+.buttons .btn {
+  margin-left: 10px;
+}
+
+.view {
+  display: none;
+  background-color: #3626a7;
+border-radius: 30px;
+cursor: pointer;
+width: 128px;
+height: 40px;
+  align-items: center;
+  justify-content: center; 
+  color: #f1e9db;
+  font-weight: bold;
+}
+
+.view:hover {
+  background-color: #657ed4;
+}
+
+
+.image:hover .view {
+  display: flex;
+}
+
+.btn {
+background-color: #3626a7;
+border-radius: 30px;
+cursor: pointer;
+width: 128px;
+height: 40px;
+display: flex;
+  align-items: center;
+  justify-content: center; 
+  color: #f1e9db;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #657ed4;
+}
+
+
+.desc{
+  width: 200px;
+  height: 100%;
+  background-color:#b6aea1;
+  border-radius: 10px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+/* END HW 3 VIDEO */
+
+
+
 
 
 
@@ -173,10 +275,8 @@ a:hover {
 
 /* ROW 1 */
 /* COL 1 */
-.browse .row1 {
-  /* background-color: blue; */
+                  /* .browse .row1 {
   width: 100%;
-  /* padding: 30px; */
   padding-top: 80px;
   gap: 25px;
   display: flex;
@@ -193,24 +293,20 @@ a:hover {
 }
 .browse .row1 .col1 img {
   width: 500px;
-  /* margin: 20px; */
   border-radius: 10px;
 }
 .browse .row1 .col1 .desc1 {
   font-size: 12pt;
-  /* background-color: #f1e9db; */
   height: 175px;
   text-align: justify;
   font-weight: bold;
-}
+} */
 /* END COL 1 */
 
 /* COL 2 */
-.browse .row1 {
-  /* background-color: blue; */
+                    /* .browse .row1 {
   width: 100%;
-  /* padding: 30px;
-  padding-top: 80px; */
+
   gap: 25px;
   display: flex;
   align-items: center;
@@ -226,27 +322,22 @@ a:hover {
 }
 .browse .row1 .col2 img {
   width: 500px;
-  /* margin: 20px; */
   border-radius: 10px;
 }
 .browse .row1 .col2 .desc2 {
   font-size: 12pt;
-  /* background-color: #f1e9db; */
   height: 175px;
   text-align: justify;
   font-weight: bold;
-}
+} */
 /* END COL 2 */
 /* END ROW 1 */
 
 
 /* ROW 2 */
 /* COL 3 */
-.browse .row2 {
-  /* background-color: blue; */
+                    /* .browse .row2 {
   width: 100%;
-  /* padding: 30px;
-  padding-top: 80px; */
   gap: 25px;
   display: flex;
   align-items: center;
@@ -262,23 +353,17 @@ a:hover {
 }
 .browse .row2 .col3 img {
   width: 500px;
-  /* margin: 20px; */
   border-radius: 10px;
 }
 .browse .row2 .col3 .desc3 {
   font-size: 12pt;
-  /* background-color: #f1e9db; */
   height: 175px;
   text-align: justify;
   font-weight: bold;
-}
+} */
 /* END COL 3 */
-
-.browse .row2 {
-  /* background-color: blue; */
+                    /* .browse .row2 {
   width: 100%;
-  /* padding: 30px; */
-  /* padding-top: 80px; */
   gap: 25px;
   display: flex;
   align-items: center;
@@ -294,16 +379,14 @@ a:hover {
 }
 .browse .row2 .col4 img {
   width: 500px;
-  /* margin: 20px; */
   border-radius: 10px;
 }
 .browse .row2 .col4 .desc4 {
   font-size: 12pt;
-  /* background-color: #f1e9db; */
   height: 175px;
   text-align: justify;
   font-weight: bold;
-}
+} */
 /* END COL 4 */
 /* END ROW 2 */
 
@@ -314,10 +397,8 @@ a:hover {
 
 /* ROW 1 */
 /* COL 1 */
-.more .row1 {
-  /* background-color: blue; */
+                    /* .more .row1 {
   width: 100%;
-  /* padding: 30px; */
   padding-top: 80px;
   gap: 25px;
   display: flex;
@@ -334,24 +415,19 @@ a:hover {
 }
 .more .row1 .col1 img {
   width: 500px;
-  /* margin: 20px; */
   border-radius: 10px;
 }
 .more .row1 .col1 .desc1 {
   font-size: 12pt;
-  /* background-color: #f1e9db; */
   height: 175px;
   text-align: justify;
   font-weight: bold;
-}
+} */
 /* END COL 1 */
 
 /* COL 2 */
-.more .row1 {
-  /* background-color: blue; */
+                    /* .more .row1 {
   width: 100%;
-  /* padding: 30px;
-  padding-top: 80px; */
   gap: 25px;
   display: flex;
   align-items: center;
@@ -367,27 +443,22 @@ a:hover {
 }
 .more .row1 .col2 img {
   width: 500px;
-  /* margin: 20px; */
   border-radius: 10px;
 }
 .more .row1 .col2 .desc2 {
   font-size: 12pt;
-  /* background-color: #f1e9db; */
   height: 175px;
   text-align: justify;
   font-weight: bold;
-}
+} */
 /* END COL 2 */
 /* END ROW 1 */
 
 
 /* ROW 2 */
 /* COL 3 */
-.more .row2 {
-  /* background-color: blue; */
+                    /* .more .row2 {
   width: 100%;
-  /* padding: 30px;
-  padding-top: 80px; */
   gap: 25px;
   display: flex;
   align-items: center;
@@ -403,23 +474,18 @@ a:hover {
 }
 .more .row2 .col3 img {
   width: 500px;
-  /* margin: 20px; */
-  border-radius: 10px;
+border-radius: 10px;
 }
 .more .row2 .col3 .desc3 {
   font-size: 12pt;
-  /* background-color: #f1e9db; */
   height: 175px;
   text-align: justify;
   font-weight: bold;
-}
+} */
 /* END COL 3 */
 
-.more .row2 {
-  /* background-color: blue; */
+                    /* .more .row2 {
   width: 100%;
-  /* padding: 30px; */
-  /* padding-top: 80px; */
   gap: 25px;
   display: flex;
   align-items: center;
@@ -435,17 +501,15 @@ a:hover {
 }
 .more .row2 .col4 img {
   width: 500px;
-  /* margin: 20px; */
   border-radius: 10px;
 }
 .more .row2 .col4 .desc4 {
   font-size: 12pt;
-  /* background-color: #f1e9db; */
   height: 175px;
   text-align: justify;
   font-weight: bold;
-}
-/* END COL 4 */
+} */
+/* END COL 4
 /* END ROW 2 */
 /* END MORE PAGE */
 

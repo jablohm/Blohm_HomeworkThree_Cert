@@ -13,6 +13,14 @@ function initURLlisteners() {
     changeRoute();
 }
 
+$(".btn").click(function(){
+    alert("An action was performed.");
+  });
+  $(".view").click(function(){
+    alert("An action was performed.");
+  });
+
+
 function initListeners () {
     $(".bars").click(function(e) {
         // console.log("clicked");
